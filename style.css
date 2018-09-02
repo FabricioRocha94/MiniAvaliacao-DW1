@@ -1,0 +1,276 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	font-family: arial;
+}
+
+#background {
+	background-image: url(images/background.png);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 15px;
+	width: 780px;
+	height: 100%;
+}
+
+.menu {
+	text-align: center;
+	background-color: #919cad;
+	padding: 30px;
+	width: 90%;
+	font-size: 18px;
+
+}
+
+.rodape {
+	text-align: center;
+	background-color: #919cad;
+	padding: 30px;
+	padding-bottom: 35px;
+	width: 90%;
+	font-size: 20px;
+}
+
+.botao {
+	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	background-color: grey;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 5px;
+	text-align: center;
+	color: black;
+}
+
+.botao:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.corpo {
+	text-align: center;
+	background-color: #e3ecf9;
+	width: 90%;
+	padding: 30px;
+}
+
+.calculadora {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4d525b;
+	padding: 5px;
+	padding-bottom: 100px;
+	margin-left: 120px;
+	width: 450px;
+	height: 100px;
+}
+
+.resultado {
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 290px;
+	height: 40px;
+	color: #c2c4c6;
+	font-size: 25px;
+}
+
+.operacao {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	background-color: grey;
+	float: right;
+	width: 35px;
+	height: 42px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+#margin {
+	margin-top: 15px;
+	margin-right: 40px;
+}
+
+.numero1 {
+	width: 100px;
+	height: 30px;
+	color: #c2c4c6;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.numero2 {
+	width: 100px;
+	height: 30px;
+	color: #c2c4c6;
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.disponivel {
+	float: left;
+	clear: left;
+	width: 150px;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.disponivel option {
+	padding: 4px;
+}
+
+.escolhido {
+	float: right;
+	clear: right;
+	width: 150px;
+	height: 70px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.escolhido option{
+	padding: 4px;
+}
+
+.disponivelstyle {
+	font-weight: bold;
+	float: left;
+	margin: 20px;
+	margin-top: 0px;
+}
+
+.escolhidostyle {
+	font-weight: bold;
+	float: right;
+	margin: 20px;
+	margin-top: 0px;
+}
+
+.cursos {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4d525b;
+	padding: 5px;
+	padding-bottom: 100px;
+	margin-left: 70px;
+	width: 550px;
+	height: 135px;
+}
+
+.tabela {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4d525b;
+	padding: 5px;
+	margin-left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.tabela table {
+	width: 80%;
+	border-collapse: collapse;
+	margin-left: 60px;
+}
+
+.corpo th {
+	text-align: left;
+	font-size: 22px;
+	padding-bottom: 5px;
+	border-collapse: collapse;
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: black;
+	padding-left: 5px;
+}
+
+.corpo tbody tr:hover td {
+	color: black;
+	border-color: black;
+}
+
+.corpo td  {
+	text-align: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	border-collapse: collapse;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: grey;
+	color: grey;
+	font-size: 18px;
+}
+
+#tituloClientes {
+	padding: 10px;
+}
+
+#exportar {
+	background-color: grey;
+	color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+textarea {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	resize: vertical;
+	margin-bottom: 20px;
+}
+
+#resultado {
+	border-width: 2px;
+	border-top-style: solid;
+	margin-top: 20px;
+	width: 670px;
+	margin-left: 15px;
+}
+
+.topborder {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+.allborder {
+	border-radius: 15px;
+}
+
+.bottomborder {
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
