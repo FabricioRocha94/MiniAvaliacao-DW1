@@ -20,19 +20,46 @@
 				<h2>CALCULADORA</h2>
 				<br>
 				<div class="floatleft">
-					<input class="resultado textcenter floatleft" type="text" name="resultado" placeholder="RESULTADO" readonly="text"><br>
-					<input class="numero1" type="text" name="numero1" placeholder="número 1">
-					<input class="numero2" type="text" name="numero2" placeholder="número 2">
+					<input id="res" class="resultado textcenter floatleft" type="text" name="resultado" placeholder="RESULTADO" readonly="text"><br>
+					<input id="v1" class="numero1" type="text" name="numero1" placeholder="número 1">
+					<input id="v2" class="numero2" type="text" name="numero2" placeholder="número 2">
 				</div>
 				
 				<div class="floatright" id="margin">
+
+				<script type="text/javascript">
+					function Sub(){
+						var e1 = parseInt(document.getElementById("v1").value);
+						var e2 = parseInt(document.getElementById("v2").value);
+						document.getElementById("res").value = e1 - e2;
+					}
+
+					function Multi(){
+						var e1 = parseInt(document.getElementById("v1").value);
+						var e2 = parseInt(document.getElementById("v2").value);
+						document.getElementById("res").value = e1 * e2;
+					}
+
+					function Soma(){
+						var e1 = parseInt(document.getElementById("v1").value);
+						var e2 = parseInt(document.getElementById("v2").value);
+						document.getElementById("res").value = e1 + e2;
+					}
+
+					function Div(){
+						var e1 = parseInt(document.getElementById("v1").value);
+						var e2 = parseInt(document.getElementById("v2").value);
+						document.getElementById("res").value = e1 / e2;
+					}
+				</script>
+
 					<p>
-					<button class="operacao">-</button>
-					<button class="operacao">X</button>
+					<button class="operacao" onclick="Sub()">-</button>
+					<button class="operacao" onclick="Multi()">X</button>
 					</p>
 					<p>
-					<button class="operacao">+</button>
-					<button class="operacao">/</button>
+					<button class="operacao" onclick="Soma()">+</button>
+					<button class="operacao" onclick="Div()">/</button>
 					</p>
 				</div>
 			</div>
